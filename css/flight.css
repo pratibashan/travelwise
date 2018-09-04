@@ -1,0 +1,53 @@
+.flight-img {
+  height: 40px;
+  width: 40px;
+}
+
+.con-border {
+  border: 2px solid black;
+}
+
+tr:hover{
+
+  -webkit-box-shadow: 1px 1px 75px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 75px -13px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 75px -13px rgba(0,0,0,0.75);
+  height: 20%;
+
+
+}
+
+tr{
+  transition: height 1s;
+  box-shadow: none;
+  transition: box-shadow 1s;
+}
+
+
+body {
+  color: black;
+}
+
+#spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  text-align: center;
+  margin: 25px 0;
+}
+
+#modal {
+  background-color: inherit;
+  border: none;
+}
+.modal-content {
+  padding:300px;
+  margin:300px;
+}
+.jumbotron{
+  background:white;
+}
